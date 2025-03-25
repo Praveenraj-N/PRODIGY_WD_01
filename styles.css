@@ -1,11 +1,9 @@
-/* General Styles */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    height: 200vh; /* For scrolling effect */
+    height: 200vh;
 }
 
-/* Navigation Bar */
 .navbar {
     position: fixed;
     top: 0;
@@ -17,7 +15,6 @@ body {
     z-index: 1000;
 }
 
-/* Navigation Links */
 .nav-links {
     list-style: none;
     display: flex;
@@ -36,17 +33,14 @@ body {
     transition: color 0.3s ease-in-out;
 }
 
-/* Hover Effect */
 .nav-links a:hover {
-    color: #f4a261; /* Change color on hover */
-}
+    color: #f4a261;
 
-/* Scroll Effect */
+
 .scrolled {
-    background-color: #222 !important; /* Darker background when scrolled */
+    background-color: #222 !important;
 }
 
-/* Sections */
 section {
     height: 100vh;
     display: flex;
