@@ -1,0 +1,62 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 200vh; /* For scrolling effect */
+}
+
+/* Navigation Bar */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 15px 0;
+    transition: background-color 0.3s ease-in-out;
+    z-index: 1000;
+}
+
+/* Navigation Links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.nav-links a:hover {
+    color: #f4a261; /* Change color on hover */
+}
+
+/* Scroll Effect */
+.scrolled {
+    background-color: #222 !important; /* Darker background when scrolled */
+}
+
+/* Sections */
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    border-bottom: 1px solid #ddd;
+}
+
+#home { background: #ffddd2; }
+#about { background: #ffb4a2; }
+#services { background: #e5989b; }
+#contact { background: #b5838d; }
