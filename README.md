@@ -14,10 +14,13 @@ Be accessible across all pages
 Change style dynamically:
 On scroll
 On hover over menu items
+
 🛠️ Technologies Used
 HTML → To structure the navigation menu
 CSS → To style the menu and apply visual effects
 JavaScript → To add interactivity (scroll & hover behavior)
+
+
 ⚙️ Features
 📍 Fixed navigation bar
 🎨 Dynamic color/style change on scroll
